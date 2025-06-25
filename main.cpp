@@ -30,7 +30,7 @@ int main() {
       cout << "simulateWithStep [int]: simulates the board with user input for the given number of generations (-1) for infinite generations" << endl;
       cout << "simulate [int]: simulates the board for the given number of generations (-1) for infinite generations" << endl;
       cout << "clear: clears the screen" << endl;
-      cout << "preset [int]: loads a preset board containing a unique machine (1-15)" << endl;
+      cout << "preset [int]: loads a preset board containing a unique machine (1-16)" << endl;
     }
     else if(command == "quit"){
       break;
