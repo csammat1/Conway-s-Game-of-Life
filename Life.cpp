@@ -376,6 +376,48 @@ void Life::preset(int num){
       cout << "Loaded Preset 15: The R-pentomino" << endl;
       return;
     }
+    else if(num == 16){
+      resize_board(25, 39);
+      reset_board();
+      set_cell(5,1,1);
+      set_cell(5,2,1);
+      set_cell(6,1,1);
+      set_cell(6,2,1);
+      set_cell(3,13,1);
+      set_cell(3,14,1);
+      set_cell(4,12,1);
+      set_cell(4,16,1);
+      set_cell(5,11,1);
+      set_cell(5,17,1);
+      set_cell(6,11,1);
+      set_cell(6,15,1);
+      set_cell(6,17,1);
+      set_cell(6,18,1);
+      set_cell(7,11,1);
+      set_cell(7,17,1);
+      set_cell(8,12,1);
+      set_cell(8,16,1);
+      set_cell(9,13,1);
+      set_cell(9,14,1);
+      set_cell(1,25,1);
+      set_cell(2,23,1);
+      set_cell(2,25,1);
+      set_cell(3,21,1);
+      set_cell(3,22,1);
+      set_cell(4,21,1);
+      set_cell(4,22,1);
+      set_cell(5,21,1);
+      set_cell(5,22,1);
+      set_cell(6,23,1);
+      set_cell(6,25,1);
+      set_cell(7,25,1);
+      set_cell(3,36,1);
+      set_cell(3,37,1);
+      set_cell(4,36,1);
+      set_cell(4,37,1);
+      cout << "Loaded Preset 16: The Gosper Glider Gun" << endl;
+      return;
+    }
     else{
       cout << "Not a Valid Preset Number" << endl;
     return;
